@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: #2f2f2b;
+    background-color: #2f2f2b !important;
     font-family: 'Montserrat', sans-serif, Arial;
     font-size: 20px;
     line-height: 35px;
@@ -132,6 +132,8 @@ blockquote:before
     z-index: 10;
     overflow: auto;
     opacity: 0.95;
+	-webkit-box-sizing: initial;
+	box-sizing: initial;
 }
 
 .main-menu.sm-clean
@@ -251,6 +253,8 @@ blockquote:before
 {
     padding-top: 115px;
     height: 85px;
+	-webkit-box-sizing: initial;
+    box-sizing: initial;
 }
 
 .header-holder .header-logo
@@ -265,7 +269,7 @@ blockquote:before
 {
     position: absolute;
     z-index: 3;
-    max-width: none;
+    max-width: 320px;
     max-height: none;
 }
 
@@ -1324,6 +1328,8 @@ li.left-footer-content.mobile
     .header-menu
     {
         float: none;
+		-webkit-box-sizing: initial;
+		box-sizing: initial;
     }
 
     .header-holder .header-logo img
