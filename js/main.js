@@ -116,7 +116,7 @@ jQuery(window).load(function () {
     jQuery('.blog-holder').find('article').each(function () {
         if (jQuery(this).find('.post-thumb').length)
         {
-            jQuery(this).find('.entry-title').css('margin-top', (jQuery(this).height() - jQuery(this).find('.entry-title').height()) / 2 - 20);
+            jQuery(this).find('.cat-links').css('margin-top', (jQuery(this).height() - jQuery(this).find('.entry-title').height()) / 2 - 20);
         }
     });
 
@@ -184,7 +184,7 @@ jQuery(window).resize(function () {
     jQuery('.blog-holder').find('article').each(function () {
         if (jQuery(this).find('.post-thumb').length)
         {
-            jQuery(this).find('.entry-title').css('margin-top', (jQuery(this).height() - jQuery(this).find('.entry-title').height()) / 2 - 20);
+            jQuery(this).find('.cat-links').css('margin-top', (jQuery(this).height() - jQuery(this).find('.entry-title').height()) / 2 - 20);
         }
     });
 

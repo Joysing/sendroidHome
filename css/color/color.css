@@ -17,3 +17,9 @@
 .footer .single-footer h2 i{
 	border-right-color:#f5de87;
 }
+.context-button .button .context-btn::before,.context-button .button .context-btn:after,.context-button .button span::before,.context-button .button span::after{
+	background: black;
+}
+.context-button .button .context-btn-white::before,.context-button .button .context-btn-white:after{
+	background: white !important;
+}

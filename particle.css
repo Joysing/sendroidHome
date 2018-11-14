@@ -42,7 +42,7 @@
 	text-align:center;
 }
 
-#slider .button{
+#slider .button,.context-button .button{
 	margin-top:55px;
 	text-align:center;
 	display:inline-block;
@@ -53,7 +53,7 @@
 }
 
 
-#slider .button .btn::before {
+#slider .button .btn::before ,.context-button .button .context-btn::before{
 	position: absolute;
 	content: "";
 	right: 0;
@@ -64,10 +64,10 @@
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-#slider .button:hover .btn::before{
+#slider .button:hover .btn::before,.context-button .button:hover .context-btn::before{
 	width: 100%;
 }
-#slider .button .btn:after{
+#slider .button .btn:after,.context-button .button .context-btn:after{
 	position:absolute;
 	content:"";
 	right:0;
@@ -79,10 +79,22 @@
 	transition:all 0.4s ease;
 
 }
-#slider .button:hover .btn::after{
+#slider .button:hover .btn::after,.context-button .button:hover .context-btn::after{
 	height: 100%;
 }
-#slider .button span::before {
+.context-button .button .context-btn{
+	white-space: normal;
+	text-decoration: none;
+}
+.context-button .button{
+    text-align: left;
+    padding: 10px;
+}
+.context-button{
+    width: 90%;
+    margin-left: 5%;
+}
+#slider .button span::before,.context-button .button span::before{
 	position: absolute;
 	content: "";
 	left: 0;
@@ -93,10 +105,10 @@
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-#slider .button:hover span::before{
+#slider .button:hover span::before,.context-button .button:hover span::before{
 	width: 100%;
 }
-#slider .button span::after {
+#slider .button span::after,.context-button .button span::after{
 	position: absolute;
 	content: "";
 	left: 0;
@@ -107,7 +119,7 @@
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-#slider .button:hover span::after{
+#slider .button:hover span::after,.context-button .button:hover span::after{
 	height: 100%;
 }
 

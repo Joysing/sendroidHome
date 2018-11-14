@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: #2f2f2b !important;
+    background-color: #f7f7f7 !important;
     font-family: 'Montserrat', sans-serif, Arial;
     font-size: 20px;
     line-height: 35px;
@@ -439,7 +439,7 @@ body.blog .more-posts
 {
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -466,7 +466,7 @@ body.blog .more-posts
 
 .blog-item-holder .one_title .cat-links, .blog-item-holder .only-post-title-holder .cat-links
 {
-    padding-top: 75px;
+    padding-top: 0px;
     padding-bottom: 0;
 }
 
